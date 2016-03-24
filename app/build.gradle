@@ -33,11 +33,9 @@ android {
     }
     productFlavors {
         development {
-            buildConfigField "String", "APPID_PARSE", "\"oCA8btzNSHF2mf6y9hIFriTo92lfLyHDFrEF6sjp\""
-            buildConfigField "String", "CLIENTID_PARSE", "\"4Bvez2VDbDLnCut3fNVG8h2ToDAZr6Mpp4wEyLpq\""
-            buildConfigField "String", "MAIL_User", "\"ben.slama.jihed@gmail.com\""
-            buildConfigField "String", "PWD_User", "\"sample\""
-            buildConfigField "String", "FIREBASE_URL", "\"https://samplepicture.firebaseio.com/\""
+            buildConfigField "String", "MAIL_User", "\"***@gmail.com\""
+            buildConfigField "String", "PWD_User", "\"******\""
+            buildConfigField "String", "FIREBASE_URL", "\"https://*********.firebaseio.com/\""
         }
     }
 }
