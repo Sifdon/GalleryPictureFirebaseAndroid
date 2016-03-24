@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~
+  ~   Developed by Ben Slama Jihed
+  ~   ben.slama.jihed@gmail.com
+  ~   https://github.com/benslamajihed
+  ~   Copyright (c) 2016
+  ~
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="?attr/actionBarSize"
+    tools:context=".activities.GalleryActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"
+        android:scrollbars="vertical" />
+</RelativeLayout>
